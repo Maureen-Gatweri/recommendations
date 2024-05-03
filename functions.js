@@ -24,8 +24,8 @@ const RecommendationSystem = {
   };
   
   // Add users and their preferred items
-  RecommendationSystem.addUser("client1", ["item1", "item2", "item3"]);
-  RecommendationSystem.addUser("client2", ["item4", "item5", "item6"]);
+  RecommendationSystem.addUser("client1", ["dress", "Sneakers", "handbag"]);
+  RecommendationSystem.addUser("client2", ["phone", "hoodie", "heels"]);
   
   // Get recommendations for a user
   console.log(RecommendationSystem.getRecommendations("client1"));
